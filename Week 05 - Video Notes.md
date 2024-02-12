@@ -22,7 +22,8 @@
 
 ## 4. Image Formation Process
 ### Side View
-IMAGE HERE!!!
+![Side view](https://github.com/MrLuigiBean/VRNotes/assets/84760999/ad415420-2842-4822-8a00-58f025338c2b)
+
 - `h_disp` = height of the display (basically the width of a smartphone screen, since it is in a landscape orientation, not portrait)
 - `d_disp` = distance between display and lens
 - `f` = focal length of lens
@@ -33,7 +34,8 @@ IMAGE HERE!!!
 	- View frustum (near is the display, far is the virtual image) is _vertically symmetric_
 
 ### Top View
-IMAGE HERE!!!
+![Top View](https://github.com/MrLuigiBean/VRNotes/assets/84760999/d1e26f04-33c1-408e-a97f-14224bb2a770)
+
 - `w_disp` = width of the display (basically the height of a smartphone screen, since it is in a landscape orientation, not portrait)
 - `w_ipd` = interpupillary distance (distance between eyes/lenses)
 - `w_virt1` = left width of virtual image, calculated by `w_disp`, `d_virt`, `w_ipd`
@@ -41,18 +43,21 @@ IMAGE HERE!!!
 - For the left eye, `w_virt1` > `w_virt2`. Vice-versa for the right eye.
 - View frustum (near is the display, far is the virtual image) is _horizontally **asymmetric**_ -> different images for the left and right eyes
 
-### Changing Variables
-- PUT THE OTHER SLIDE IMAGES HERE I GUESS???
-- WHERE DO I PUT M = MAGNIFICATION
-
 ### Field Of View (FOV)
-IMAGES HERE!!!
+Side FOV
+![Side FOV](https://github.com/MrLuigiBean/VRNotes/assets/84760999/53f28ce5-aeb0-4829-9646-6c998584a57e)
+
+Top FOV
+![Top FOV](https://github.com/MrLuigiBean/VRNotes/assets/84760999/2fe92014-3f92-4ffc-95fd-23c7d79d4fa6)
+
+
 - `d` = distance from eye to virtual image
 - `h` = height of virtual image
 - `fov_h` = horizontal FOV angle, calculated by `fov_h_nasal` and `fov_h_temporal`, which use`w_ipd`, `d`
 - `fov_h_nasal` = the FOV angle of the nose side
 - `fov_h_temporal` = the FOV angle of the side of the temples
 - `fov_v` = vertical FOV angle, calculated by `h`, `d`, `M`
+- `M` = magnification factor (refer to slides for more context)
 
 #### Types of FOV
 - Binocular FOV: the combined visual span of **overlapping** region of both eyes
