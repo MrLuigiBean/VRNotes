@@ -1,0 +1,1 @@
+{"version":3,"file":"IComputeContext.js","sourceRoot":"","sources":["../../../../dev/core/src/Compute/IComputeContext.ts"],"names":[],"mappings":"","sourcesContent":["/** @internal */\r\nexport interface IComputeContext {\r\n    clear(): void;\r\n}\r\n"]}

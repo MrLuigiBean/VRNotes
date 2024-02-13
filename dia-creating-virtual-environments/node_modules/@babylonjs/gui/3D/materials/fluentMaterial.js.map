@@ -1,0 +1,1 @@
+{"version":3,"file":"fluentMaterial.js","sourceRoot":"","sources":["../../../../../dev/gui/src/3D/materials/fluentMaterial.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,OAAO,EAAE,cAAc,EAAE,MAAM,yBAAyB,CAAC","sourcesContent":["/**\r\n * This is here for backwards compatibility with 4.2\r\n */\r\nexport { FluentMaterial } from \"./fluent/fluentMaterial\";\r\n"]}

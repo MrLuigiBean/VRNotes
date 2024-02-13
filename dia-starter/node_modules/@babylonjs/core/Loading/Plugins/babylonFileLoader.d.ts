@@ -1,0 +1,13 @@
+/** @internal */
+export declare var _BabylonLoaderRegistered: boolean;
+/**
+ * Helps setting up some configuration for the babylon file loader.
+ */
+export declare class BabylonFileLoaderConfiguration {
+    /**
+     * The loader does not allow injecting custom physics engine into the plugins.
+     * Unfortunately in ES6, we need to manually inject them into the plugin.
+     * So you could set this variable to your engine import to make it work.
+     */
+    static LoaderInjectedPhysicsEngine: any;
+}

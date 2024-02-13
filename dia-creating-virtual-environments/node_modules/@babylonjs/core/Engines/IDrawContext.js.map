@@ -1,0 +1,1 @@
+{"version":3,"file":"IDrawContext.js","sourceRoot":"","sources":["../../../../dev/core/src/Engines/IDrawContext.ts"],"names":[],"mappings":"","sourcesContent":["/** @internal */\r\nexport interface IDrawContext {\r\n    uniqueId: number;\r\n    useInstancing: boolean;\r\n\r\n    reset(): void;\r\n    dispose(): void;\r\n}\r\n"]}

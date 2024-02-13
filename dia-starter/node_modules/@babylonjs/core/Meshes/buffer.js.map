@@ -1,0 +1,1 @@
+{"version":3,"file":"buffer.js","sourceRoot":"","sources":["../../../../dev/core/src/Meshes/buffer.ts"],"names":[],"mappings":"AAAA;;;GAGG;AACH,OAAO,EAAE,YAAY,EAAE,MAAM,EAAE,MAAM,mBAAmB,CAAC","sourcesContent":["/**\r\n * This is here for backwards compatibility with 4.2\r\n * @internal\r\n */\r\nexport { VertexBuffer, Buffer } from \"../Buffers/buffer\";\r\n"]}
