@@ -116,7 +116,7 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [300]
 
-  History-based
+  History-based.
 </details>
 
 ## Q2) What experience is this?
@@ -130,7 +130,7 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [AR]
 
-  Self Explanatory
+  Self Explanatory.
 </details>
 
 ## Q3) What experience is this?
@@ -144,7 +144,7 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [MR]
 
-  Self Explanatory
+  Self Explanatory.
 </details>
 
 ## Q4) Where should Pokemon GO be placed in the RV Continuum?
@@ -155,7 +155,7 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [B]
 
-  Basing off the real-world environment, closer to Real World
+  Basing off the real-world environment, closer to Real World.
 </details>
 
 ## Q5) Where should Beat Saber be placed in the RV Continuum?
@@ -166,8 +166,8 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [D] or [E]
 
-  No real-world environment, can be arguable it is not entirely virtual
-  Theory-wise, cannot be entirely virtual since it tracks your hands and user can slightly see real world through gaps in googles
+  No real-world environment, can be arguable it is not entirely virtual.
+  Theory-wise, cannot be entirely virtual since it tracks your hands and user can slightly see real world through gaps in goggles.
 </details>
 
 ## Q6) Where should Strava be placed in the RV Continuum?
@@ -178,8 +178,8 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [B]
 
-  Closer to reality since it tracks user location
-  Not entirely real since ...[Question is below]
+  Closer to reality since it tracks user location.
+  Not entirely real since ...[Question is below].
 </details>
 
 ## Q7) Why is Strava not considered to be near the "Real Environment" end of the RV spectrum?
@@ -192,7 +192,7 @@ Added Coherenc (CO) to represent user
   [It has some "Extent of World Knowledge"]
 
   It is trying to gather data from the real world.
-  And the higher the "Extent of World Knowledge", the more virtual it is
+  And the higher the "Extent of World Knowledge", the more virtual it is.
 </details>
 
 ## Q8) What is the common public perception of the difference between AR and MR?
@@ -204,8 +204,8 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [Virtual entities in MR can interact with real-world objects]
 
-  Coined by Microsoft, that MR can interact with real-world objects
-  Showcases HoloLens
+  Coined by Microsoft, that MR can interact with real-world objects.
+  Showcases HoloLens as MR hardware.
   ![image](https://github.com/TobyIO0085/VRNotes/assets/76524945/5cf7b722-3f4c-41fc-8972-9387153566ee)
 
 </details>
@@ -218,6 +218,6 @@ Added Coherenc (CO) to represent user
   <summary>Answer</summary>  
   [True]
 
-  Started around 1957 Sensorama and 1968 Sword of Damocles
+  Started around 1957 Sensorama and 1968 Sword of Damocles.
 
 </details>
