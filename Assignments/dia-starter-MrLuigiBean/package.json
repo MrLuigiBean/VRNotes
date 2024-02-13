@@ -1,0 +1,27 @@
+{
+  "name": "hello-immersive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --reporter=verbose",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest --run",
+    "clean": "rm -rf dist node_modules package-lock.json",
+    "comment1": "^ The above command does not work on Windows!(because of `rm`, duh...)",
+    "comment2": "So here's an equivalent command for cmd on Windows!",
+    "cmdclean": "rmdir /S /Q dist & rmdir /S /Q node_modules & del package-lock.json"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^1.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vitest": "^1.1.1"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^6.36.1"
+  }
+}
