@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../dev/core/src/Physics/v2/Plugins/index.ts"],"names":[],"mappings":"AAAA,cAAc,eAAe,CAAC","sourcesContent":["export * from \"./havokPlugin\";\r\n"]}

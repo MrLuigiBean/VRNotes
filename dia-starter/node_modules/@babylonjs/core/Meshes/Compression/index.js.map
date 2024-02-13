@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/core/src/Meshes/Compression/index.ts"],"names":[],"mappings":"AAAA,cAAc,oBAAoB,CAAC;AACnC,cAAc,sBAAsB,CAAC","sourcesContent":["export * from \"./dracoCompression\";\r\nexport * from \"./meshoptCompression\";\r\n"]}

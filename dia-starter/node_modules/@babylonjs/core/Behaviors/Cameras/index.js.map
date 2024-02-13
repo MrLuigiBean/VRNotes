@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/core/src/Behaviors/Cameras/index.ts"],"names":[],"mappings":"AAAA,cAAc,wBAAwB,CAAC;AACvC,cAAc,oBAAoB,CAAC;AACnC,cAAc,mBAAmB,CAAC","sourcesContent":["export * from \"./autoRotationBehavior\";\r\nexport * from \"./bouncingBehavior\";\r\nexport * from \"./framingBehavior\";\r\n"]}

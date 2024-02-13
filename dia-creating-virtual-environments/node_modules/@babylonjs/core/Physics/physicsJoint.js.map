@@ -1,1 +1,0 @@
-{"version":3,"file":"physicsJoint.js","sourceRoot":"","sources":["../../../../dev/core/src/Physics/physicsJoint.ts"],"names":[],"mappings":"AAAA,qBAAqB;AACrB,cAAc,mBAAmB,CAAC","sourcesContent":["// ES 6 Compatibility\r\nexport * from \"./v1/physicsJoint\";\r\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../dev/core/src/Bones/index.ts"],"names":[],"mappings":"AAAA,cAAc,QAAQ,CAAC;AACvB,cAAc,oBAAoB,CAAC;AACnC,cAAc,sBAAsB,CAAC;AACrC,cAAc,YAAY,CAAC","sourcesContent":["export * from \"./bone\";\r\nexport * from \"./boneIKController\";\r\nexport * from \"./boneLookController\";\r\nexport * from \"./skeleton\";\r\n"]}

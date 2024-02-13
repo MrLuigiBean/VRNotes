@@ -1,1 +1,0 @@
-{"version":3,"file":"material.decalMap.js","sourceRoot":"","sources":["../../../../dev/core/src/Materials/material.decalMap.ts"],"names":[],"mappings":"AAAA,OAAO,6BAA6B,CAAC;AACrC,OAAO,4BAA4B,CAAC;AACpC,OAAO,iCAAiC,CAAC","sourcesContent":["import \"./standardMaterial.decalMap\";\r\nimport \"./PBR/pbrMaterial.decalMap\";\r\nimport \"../Meshes/abstractMesh.decalMap\";\r\n"]}

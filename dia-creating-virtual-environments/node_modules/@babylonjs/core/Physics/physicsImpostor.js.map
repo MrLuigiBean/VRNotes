@@ -1,1 +1,0 @@
-{"version":3,"file":"physicsImpostor.js","sourceRoot":"","sources":["../../../../dev/core/src/Physics/physicsImpostor.ts"],"names":[],"mappings":"AAAA,qBAAqB;AACrB,cAAc,sBAAsB,CAAC","sourcesContent":["// ES 6 Compatibility\r\nexport * from \"./v1/physicsImpostor\";\r\n"]}

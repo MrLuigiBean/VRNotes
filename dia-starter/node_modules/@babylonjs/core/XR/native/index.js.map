@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/core/src/XR/native/index.ts"],"names":[],"mappings":"AAAA,cAAc,wBAAwB,CAAC;AACvC,cAAc,iBAAiB,CAAC","sourcesContent":["export * from \"./nativeXRRenderTarget\";\r\nexport * from \"./nativeXRFrame\";\r\n"]}

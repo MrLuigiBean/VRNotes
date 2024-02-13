@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/core/src/Misc/HighDynamicRange/index.ts"],"names":[],"mappings":"AAAA,cAAc,gCAAgC,CAAC;AAC/C,cAAc,OAAO,CAAC;AACtB,cAAc,qBAAqB,CAAC","sourcesContent":["export * from \"./cubemapToSphericalPolynomial\";\r\nexport * from \"./hdr\";\r\nexport * from \"./panoramaToCubemap\";\r\n"]}

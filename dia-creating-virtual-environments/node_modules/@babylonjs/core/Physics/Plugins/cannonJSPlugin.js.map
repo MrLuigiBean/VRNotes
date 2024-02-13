@@ -1,1 +1,0 @@
-{"version":3,"file":"cannonJSPlugin.js","sourceRoot":"","sources":["../../../../../dev/core/src/Physics/Plugins/cannonJSPlugin.ts"],"names":[],"mappings":"AAAA,qBAAqB;AACrB,cAAc,8BAA8B,CAAC","sourcesContent":["// ES 6 Compatibility\r\nexport * from \"../v1/Plugins/cannonJSPlugin\";\r\n"]}

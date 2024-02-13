@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../dev/core/src/Materials/Node/Blocks/Teleport/index.ts"],"names":[],"mappings":"AAAA,cAAc,mBAAmB,CAAC;AAClC,cAAc,oBAAoB,CAAC","sourcesContent":["export * from \"./teleportInBlock\";\r\nexport * from \"./teleportOutBlock\";\r\n"]}

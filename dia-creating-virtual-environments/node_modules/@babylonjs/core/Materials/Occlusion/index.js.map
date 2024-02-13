@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/core/src/Materials/Occlusion/index.ts"],"names":[],"mappings":"AAAA,cAAc,qBAAqB,CAAC","sourcesContent":["export * from \"./occlusionMaterial\";\r\n"]}

@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../dev/core/src/Compat/index.ts"],"names":[],"mappings":"AAAA,cAAc,wBAAwB,CAAC","sourcesContent":["export * from \"./compatibilityOptions\";\r\n"]}

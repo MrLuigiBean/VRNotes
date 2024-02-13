@@ -1,8 +1,0 @@
-/** @internal */
-export declare class ShaderCodeCursor {
-    private _lines;
-    lineIndex: number;
-    get currentLine(): string;
-    get canRead(): boolean;
-    set lines(value: string[]);
-}
