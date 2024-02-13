@@ -1,0 +1,196 @@
+import type { Nullable } from "../types";
+import type { Scene } from "../scene";
+import { Matrix, Vector3 } from "../Maths/math.vector";
+import type { AbstractMesh } from "../Meshes/abstractMesh";
+import type { Effect } from "../Materials/effect";
+import type { BaseTexture } from "../Materials/Textures/baseTexture";
+import { Light } from "./light";
+import { ShadowLight } from "./shadowLight";
+import type { Camera } from "../Cameras/camera";
+/**
+ * A spot light is defined by a position, a direction, an angle, and an exponent.
+ * These values define a cone of light starting from the position, emitting toward the direction.
+ * The angle, in radians, defines the size (field of illumination) of the spotlight's conical beam,
+ * and the exponent defines the speed of the decay of the light with distance (reach).
+ * Documentation: https://doc.babylonjs.com/features/featuresDeepDive/lights/lights_introduction
+ */
+export declare class SpotLight extends ShadowLight {
+    private _angle;
+    private _innerAngle;
+    private _cosHalfAngle;
+    private _lightAngleScale;
+    private _lightAngleOffset;
+    /**
+     * Gets the cone angle of the spot light in Radians.
+     */
+    get angle(): number;
+    /**
+     * Sets the cone angle of the spot light in Radians.
+     */
+    set angle(value: number);
+    /**
+     * Only used in gltf falloff mode, this defines the angle where
+     * the directional falloff will start before cutting at angle which could be seen
+     * as outer angle.
+     */
+    get innerAngle(): number;
+    /**
+     * Only used in gltf falloff mode, this defines the angle where
+     * the directional falloff will start before cutting at angle which could be seen
+     * as outer angle.
+     */
+    set innerAngle(value: number);
+    private _shadowAngleScale;
+    /**
+     * Allows scaling the angle of the light for shadow generation only.
+     */
+    get shadowAngleScale(): number;
+    /**
+     * Allows scaling the angle of the light for shadow generation only.
+     */
+    set shadowAngleScale(value: number);
+    /**
+     * The light decay speed with the distance from the emission spot.
+     */
+    exponent: number;
+    private _projectionTextureMatrix;
+    /**
+     * Allows reading the projection texture
+     */
+    get projectionTextureMatrix(): Matrix;
+    protected _projectionTextureLightNear: number;
+    /**
+     * Gets the near clip of the Spotlight for texture projection.
+     */
+    get projectionTextureLightNear(): number;
+    /**
+     * Sets the near clip of the Spotlight for texture projection.
+     */
+    set projectionTextureLightNear(value: number);
+    protected _projectionTextureLightFar: number;
+    /**
+     * Gets the far clip of the Spotlight for texture projection.
+     */
+    get projectionTextureLightFar(): number;
+    /**
+     * Sets the far clip of the Spotlight for texture projection.
+     */
+    set projectionTextureLightFar(value: number);
+    protected _projectionTextureUpDirection: Vector3;
+    /**
+     * Gets the Up vector of the Spotlight for texture projection.
+     */
+    get projectionTextureUpDirection(): Vector3;
+    /**
+     * Sets the Up vector of the Spotlight for texture projection.
+     */
+    set projectionTextureUpDirection(value: Vector3);
+    private _projectionTexture;
+    /**
+     * Gets the projection texture of the light.
+     */
+    get projectionTexture(): Nullable<BaseTexture>;
+    /**
+     * Sets the projection texture of the light.
+     */
+    set projectionTexture(value: Nullable<BaseTexture>);
+    private static _IsProceduralTexture;
+    private static _IsTexture;
+    private _projectionTextureViewLightDirty;
+    private _projectionTextureProjectionLightDirty;
+    private _projectionTextureDirty;
+    private _projectionTextureViewTargetVector;
+    private _projectionTextureViewLightMatrix;
+    private _projectionTextureProjectionLightMatrix;
+    /**
+     * Gets or sets the light projection matrix as used by the projection texture
+     */
+    get projectionTextureProjectionLightMatrix(): Matrix;
+    set projectionTextureProjectionLightMatrix(projection: Matrix);
+    private _projectionTextureScalingMatrix;
+    /**
+     * Creates a SpotLight object in the scene. A spot light is a simply light oriented cone.
+     * It can cast shadows.
+     * Documentation : https://doc.babylonjs.com/features/featuresDeepDive/lights/lights_introduction
+     * @param name The light friendly name
+     * @param position The position of the spot light in the scene
+     * @param direction The direction of the light in the scene
+     * @param angle The cone angle of the light in Radians
+     * @param exponent The light decay speed with the distance from the emission spot
+     * @param scene The scene the lights belongs to
+     */
+    constructor(name: string, position: Vector3, direction: Vector3, angle: number, exponent: number, scene?: Scene);
+    /**
+     * Returns the string "SpotLight".
+     * @returns the class name
+     */
+    getClassName(): string;
+    /**
+     * Returns the integer 2.
+     * @returns The light Type id as a constant defines in Light.LIGHTTYPEID_x
+     */
+    getTypeID(): number;
+    /**
+     * Overrides the direction setter to recompute the projection texture view light Matrix.
+     * @param value
+     */
+    protected _setDirection(value: Vector3): void;
+    /**
+     * Overrides the position setter to recompute the projection texture view light Matrix.
+     * @param value
+     */
+    protected _setPosition(value: Vector3): void;
+    /**
+     * Sets the passed matrix "matrix" as perspective projection matrix for the shadows and the passed view matrix with the fov equal to the SpotLight angle and and aspect ratio of 1.0.
+     * Returns the SpotLight.
+     * @param matrix
+     * @param viewMatrix
+     * @param renderList
+     */
+    protected _setDefaultShadowProjectionMatrix(matrix: Matrix, viewMatrix: Matrix, renderList: Array<AbstractMesh>): void;
+    protected _computeProjectionTextureViewLightMatrix(): void;
+    protected _computeProjectionTextureProjectionLightMatrix(): void;
+    /**
+     * Main function for light texture projection matrix computing.
+     */
+    protected _computeProjectionTextureMatrix(): void;
+    protected _buildUniformLayout(): void;
+    private _computeAngleValues;
+    /**
+     * Sets the passed Effect "effect" with the Light textures.
+     * @param effect The effect to update
+     * @param lightIndex The index of the light in the effect to update
+     * @returns The light
+     */
+    transferTexturesToEffect(effect: Effect, lightIndex: string): Light;
+    /**
+     * Sets the passed Effect object with the SpotLight transformed position (or position if not parented) and normalized direction.
+     * @param effect The effect to update
+     * @param lightIndex The index of the light in the effect to update
+     * @returns The spot light
+     */
+    transferToEffect(effect: Effect, lightIndex: string): SpotLight;
+    transferToNodeMaterialEffect(effect: Effect, lightDataUniformName: string): this;
+    /**
+     * Disposes the light and the associated resources.
+     */
+    dispose(): void;
+    /**
+     * Gets the minZ used for shadow according to both the scene and the light.
+     * @param activeCamera The camera we are returning the min for
+     * @returns the depth min z
+     */
+    getDepthMinZ(activeCamera: Camera): number;
+    /**
+     * Gets the maxZ used for shadow according to both the scene and the light.
+     * @param activeCamera The camera we are returning the max for
+     * @returns the depth max z
+     */
+    getDepthMaxZ(activeCamera: Camera): number;
+    /**
+     * Prepares the list of defines specific to the light type.
+     * @param defines the list of defines
+     * @param lightIndex defines the index of the light for the effect
+     */
+    prepareLightSpecificDefines(defines: any, lightIndex: number): void;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../dev/gui/src/3D/materials/handle/index.ts"],"names":[],"mappings":"AAAA,cAAc,kBAAkB,CAAC","sourcesContent":["export * from \"./handleMaterial\";\r\n"]}

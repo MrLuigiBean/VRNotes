@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../dev/core/src/BakedVertexAnimation/index.ts"],"names":[],"mappings":"AAAA,cAAc,+BAA+B,CAAC;AAC9C,cAAc,wBAAwB,CAAC","sourcesContent":["export * from \"./bakedVertexAnimationManager\";\r\nexport * from \"./vertexAnimationBaker\";\r\n"]}

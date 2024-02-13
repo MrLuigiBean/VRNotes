@@ -1,0 +1,65 @@
+import type { Scene } from "../scene";
+import type { ISceneComponent } from "../sceneComponent";
+import type { Layer } from "./layer";
+import type { AbstractScene } from "../abstractScene";
+declare module "../abstractScene" {
+    interface AbstractScene {
+        /**
+         * The list of layers (background and foreground) of the scene
+         */
+        layers: Array<Layer>;
+    }
+}
+/**
+ * Defines the layer scene component responsible to manage any layers
+ * in a given scene.
+ */
+export declare class LayerSceneComponent implements ISceneComponent {
+    /**
+     * The component name helpful to identify the component in the list of scene components.
+     */
+    readonly name = "Layer";
+    /**
+     * The scene the component belongs to.
+     */
+    scene: Scene;
+    private _engine;
+    /**
+     * Creates a new instance of the component for the given scene
+     * @param scene Defines the scene to register the component in
+     */
+    constructor(scene?: Scene);
+    /**
+     * Registers the component in a given scene
+     */
+    register(): void;
+    /**
+     * Rebuilds the elements related to this component in case of
+     * context lost for instance.
+     */
+    rebuild(): void;
+    /**
+     * Disposes the component and the associated resources.
+     */
+    dispose(): void;
+    private _draw;
+    private _drawCameraPredicate;
+    private _drawCameraBackground;
+    private _drawCameraForegroundWithPostProcessing;
+    private _drawCameraForegroundWithoutPostProcessing;
+    private _drawRenderTargetPredicate;
+    private _drawRenderTargetBackground;
+    private _drawRenderTargetForegroundWithPostProcessing;
+    private _drawRenderTargetForegroundWithoutPostProcessing;
+    /**
+     * Adds all the elements from the container to the scene
+     * @param container the container holding the elements
+     */
+    addFromContainer(container: AbstractScene): void;
+    /**
+     * Removes all the elements in the container from the scene
+     * @param container contains the elements to remove
+     * @param dispose if the removed element should be disposed (default: false)
+     */
+    removeFromContainer(container: AbstractScene, dispose?: boolean): void;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../dev/loaders/src/SPLAT/index.ts"],"names":[],"mappings":"AAAA,+CAA+C;AAC/C,cAAc,mBAAmB,CAAC","sourcesContent":["/* eslint-disable import/no-internal-modules */\r\nexport * from \"./splatFileLoader\";\r\n"]}

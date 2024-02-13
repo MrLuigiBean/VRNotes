@@ -1,0 +1,108 @@
+import { Observable } from "../Misc/observable";
+import { AbstractMesh } from "../Meshes/abstractMesh";
+import type { Ray } from "../Culling/ray";
+import type { Scene } from "../scene";
+import type { WebXRAbstractMotionController } from "./motionController/webXRAbstractMotionController";
+import type { WebXRCamera } from "./webXRCamera";
+/**
+ * Configuration options for the WebXR controller creation
+ */
+export interface IWebXRControllerOptions {
+    /**
+     * Should the controller mesh be animated when a user interacts with it
+     * The pressed buttons / thumbstick and touchpad animations will be disabled
+     */
+    disableMotionControllerAnimation?: boolean;
+    /**
+     * Do not load the controller mesh, in case a different mesh needs to be loaded.
+     */
+    doNotLoadControllerMesh?: boolean;
+    /**
+     * Force a specific controller type for this controller.
+     * This can be used when creating your own profile or when testing different controllers
+     */
+    forceControllerProfile?: string;
+    /**
+     * Defines a rendering group ID for meshes that will be loaded.
+     * This is for the default controllers only.
+     */
+    renderingGroupId?: number;
+}
+/**
+ * Represents an XR controller
+ */
+export declare class WebXRInputSource {
+    private _scene;
+    /** The underlying input source for the controller  */
+    inputSource: XRInputSource;
+    private _options;
+    private _tmpVector;
+    private _uniqueId;
+    private _disposed;
+    /**
+     * Represents the part of the controller that is held. This may not exist if the controller is the head mounted display itself, if that's the case only the pointer from the head will be available
+     */
+    grip?: AbstractMesh;
+    /**
+     * If available, this is the gamepad object related to this controller.
+     * Using this object it is possible to get click events and trackpad changes of the
+     * webxr controller that is currently being used.
+     */
+    motionController?: WebXRAbstractMotionController;
+    /**
+     * Event that fires when the controller is removed/disposed.
+     * The object provided as event data is this controller, after associated assets were disposed.
+     * uniqueId is still available.
+     */
+    onDisposeObservable: Observable<WebXRInputSource>;
+    /**
+     * Will be triggered when the mesh associated with the motion controller is done loading.
+     * It is also possible that this will never trigger (!) if no mesh was loaded, or if the developer decides to load a different mesh
+     * A shortened version of controller -> motion controller -> on mesh loaded.
+     */
+    onMeshLoadedObservable: Observable<AbstractMesh>;
+    /**
+     * Observers registered here will trigger when a motion controller profile was assigned to this xr controller
+     */
+    onMotionControllerInitObservable: Observable<WebXRAbstractMotionController>;
+    /**
+     * Pointer which can be used to select objects or attach a visible laser to
+     */
+    pointer: AbstractMesh;
+    /**
+     * The last XRPose the was calculated on the current XRFrame
+     * @internal
+     */
+    _lastXRPose?: XRPose;
+    /**
+     * Creates the input source object
+     * @see https://doc.babylonjs.com/features/featuresDeepDive/webXR/webXRInputControllerSupport
+     * @param _scene the scene which the controller should be associated to
+     * @param inputSource the underlying input source for the controller
+     * @param _options options for this controller creation
+     */
+    constructor(_scene: Scene, 
+    /** The underlying input source for the controller  */
+    inputSource: XRInputSource, _options?: IWebXRControllerOptions);
+    /**
+     * Get this controllers unique id
+     */
+    get uniqueId(): string;
+    /**
+     * Disposes of the object
+     */
+    dispose(): void;
+    /**
+     * Gets a world space ray coming from the pointer or grip
+     * @param result the resulting ray
+     * @param gripIfAvailable use the grip mesh instead of the pointer, if available
+     */
+    getWorldPointerRayToRef(result: Ray, gripIfAvailable?: boolean): void;
+    /**
+     * Updates the controller pose based on the given XRFrame
+     * @param xrFrame xr frame to update the pose with
+     * @param referenceSpace reference space to use
+     * @param xrCamera the xr camera, used for parenting
+     */
+    updateFromXRFrame(xrFrame: XRFrame, referenceSpace: XRReferenceSpace, xrCamera: WebXRCamera): void;
+}

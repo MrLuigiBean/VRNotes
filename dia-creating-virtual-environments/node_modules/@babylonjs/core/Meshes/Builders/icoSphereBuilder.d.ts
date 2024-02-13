@@ -1,0 +1,83 @@
+import type { Scene } from "../../scene";
+import type { Vector4 } from "../../Maths/math.vector";
+import { Mesh } from "../mesh";
+import { VertexData } from "../mesh.vertexData";
+import type { Nullable } from "../../types";
+/**
+ * Creates the VertexData of the IcoSphere
+ * @param options an object used to set the following optional parameters for the IcoSphere, required but can be empty
+ * * radius the radius of the IcoSphere, optional default 1
+ * * radiusX allows stretching in the x direction, optional, default radius
+ * * radiusY allows stretching in the y direction, optional, default radius
+ * * radiusZ allows stretching in the z direction, optional, default radius
+ * * flat when true creates a flat shaded mesh, optional, default true
+ * * subdivisions increasing the subdivisions increases the number of faces, optional, default 4
+ * * sideOrientation optional and takes the values : Mesh.FRONTSIDE (default), Mesh.BACKSIDE or Mesh.DOUBLESIDE
+ * * frontUvs only usable when you create a double-sided mesh, used to choose what parts of the texture image to crop and apply on the front side, optional, default vector4 (0, 0, 1, 1)
+ * * backUVs only usable when you create a double-sided mesh, used to choose what parts of the texture image to crop and apply on the back side, optional, default vector4 (0, 0, 1, 1)
+ * @param options.radius
+ * @param options.radiusX
+ * @param options.radiusY
+ * @param options.radiusZ
+ * @param options.flat
+ * @param options.subdivisions
+ * @param options.sideOrientation
+ * @param options.frontUVs
+ * @param options.backUVs
+ * @returns the VertexData of the IcoSphere
+ */
+export declare function CreateIcoSphereVertexData(options: {
+    radius?: number;
+    radiusX?: number;
+    radiusY?: number;
+    radiusZ?: number;
+    flat?: boolean;
+    subdivisions?: number;
+    sideOrientation?: number;
+    frontUVs?: Vector4;
+    backUVs?: Vector4;
+}): VertexData;
+/**
+ * Creates a sphere based upon an icosahedron with 20 triangular faces which can be subdivided
+ * * The parameter `radius` sets the radius size (float) of the icosphere (default 1)
+ * * You can set some different icosphere dimensions, for instance to build an ellipsoid, by using the parameters `radiusX`, `radiusY` and `radiusZ` (all by default have the same value of `radius`)
+ * * The parameter `subdivisions` sets the number of subdivisions (positive integer, default 4). The more subdivisions, the more faces on the icosphere whatever its size
+ * * The parameter `flat` (boolean, default true) gives each side its own normals. Set it to false to get a smooth continuous light reflection on the surface
+ * * You can also set the mesh side orientation with the values : BABYLON.Mesh.FRONTSIDE (default), BABYLON.Mesh.BACKSIDE or BABYLON.Mesh.DOUBLESIDE
+ * * If you create a double-sided mesh, you can choose what parts of the texture image to crop and stick respectively on the front and the back sides with the parameters `frontUVs` and `backUVs` (Vector4). Detail here : https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/set#side-orientation
+ * * The mesh can be set to updatable with the boolean parameter `updatable` (default false) if its internal geometry is supposed to change once created
+ * @param name defines the name of the mesh
+ * @param options defines the options used to create the mesh
+ * @param options.radius
+ * @param options.radiusX
+ * @param options.radiusY
+ * @param options.radiusZ
+ * @param options.flat
+ * @param options.subdivisions
+ * @param options.sideOrientation
+ * @param options.frontUVs
+ * @param options.backUVs
+ * @param options.updatable
+ * @param scene defines the hosting scene
+ * @returns the icosahedron mesh
+ * @see https://doc.babylonjs.com/features/featuresDeepDive/mesh/creation/polyhedra#icosphere
+ */
+export declare function CreateIcoSphere(name: string, options?: {
+    radius?: number;
+    radiusX?: number;
+    radiusY?: number;
+    radiusZ?: number;
+    flat?: boolean;
+    subdivisions?: number;
+    sideOrientation?: number;
+    frontUVs?: Vector4;
+    backUVs?: Vector4;
+    updatable?: boolean;
+}, scene?: Nullable<Scene>): Mesh;
+/**
+ * Class containing static functions to help procedurally build meshes
+ * @deprecated use the function directly from the module
+ */
+export declare const IcoSphereBuilder: {
+    CreateIcoSphere: typeof CreateIcoSphere;
+};

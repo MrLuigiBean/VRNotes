@@ -1,0 +1,1 @@
+{"version":3,"file":"legacy-glTF2FileLoader.js","sourceRoot":"","sources":["../../../../lts/loaders/src/legacy/legacy-glTF2FileLoader.ts"],"names":[],"mappings":"AAAA,yCAAyC;AACzC,cAAc,eAAe,CAAC;AAC9B,cAAc,gBAAgB,CAAC","sourcesContent":["// eslint-disable-next-line import/export\r\nexport * from \"./legacy-glTF\";\r\nexport * from \"./legacy-glTF2\";\r\n"]}
