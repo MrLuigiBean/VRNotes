@@ -1,5 +1,6 @@
 
 # Hardware and Software Components
+[Discussion Link](https://github.com/orgs/sit-dia/discussions/9)
 ## 1. Variety of XR Devices
 - XR = eXtended Reality, the intersection of the 3 sets AR, VR & MR
 - Common dedicated XR Devices: Meta Quest series, HTC Vive, Microsoft Hololens

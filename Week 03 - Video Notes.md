@@ -1,4 +1,5 @@
 # Development Primer
+[Discussion Link](https://github.com/orgs/sit-dia/discussions/6)
 ## 1. Start
 ## 2. NodeJS and Node Package Manager
 ## 3. Node Version Manager

@@ -1,4 +1,5 @@
 # Evaluating Immersive Experiences
+[Discussion Link](https://github.com/orgs/sit-dia/discussions/5)
 
 ## 1. Evaluation-first approach
 Products are primarily built for the users, not to satisfy the developers. Thus, the quality of the product needs to be evaluated at an early stage in the development lifecycle.
