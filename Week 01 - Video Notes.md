@@ -216,7 +216,7 @@ Added Coherenc (CO) to represent user
 
 <details>
   <summary>Answer</summary>  
-  [True]
+  [False]
 
   Started around 1957 Sensorama and 1968 Sword of Damocles.
 
