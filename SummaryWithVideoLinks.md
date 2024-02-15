@@ -18,9 +18,10 @@ Extent of world knowledge: Virtual objects are able to interact with real world 
 Reproduction Fidelity: How real/high quality the images and models are,
 
 Extent of Presence: How much of your senses are being emulated
+
 Coherence: How immersive/believable the experience is,
 
-History of VR: VR invented earlier that 21 Century, Oculus Rift DK1 sparked the current rise of VR, 
+History of VR - first VR device invented earlier that 21 Century, Oculus Rift DK1 sparked the current rise of VR.
 
 # Week 2
 https://youtu.be/iDCnmggNIy8
@@ -57,9 +58,9 @@ adding a custom script to the project -> package.json,
 project dependencies version -> package-lock.json,
 
 Development tools:
-Unity3D Unreal Engine
-BabylonJS
-A-Frame
+Unity3D, Unreal Engine
+BabylonJS (WebXR)
+A-Frame (WebXR)
 ThreeJS
 
 Co-Spaces - Easy to learn but very limiting,
