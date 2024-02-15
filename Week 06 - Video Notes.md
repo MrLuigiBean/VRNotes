@@ -17,6 +17,7 @@
 ## 14. GUI: VR vs. Desktop
 
 ## 15. Correction to Menti Questions
+These are corrections to the [Week 06 - Menti pdf](Week%2006%20-%20Menti.pdf)
 ![image](https://github.com/TobyIO0085/VRNotes/assets/76524945/3797c9fd-b53b-425d-8a86-403211047306)
 ![image](https://github.com/TobyIO0085/VRNotes/assets/76524945/fc0fa0ed-b0fa-4cbe-9eec-36e512257bac)
 ![image](https://github.com/TobyIO0085/VRNotes/assets/76524945/63a32811-3559-4895-971f-4f0353ba3ae0)
