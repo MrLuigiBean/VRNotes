@@ -1,3 +1,7 @@
+# Finals review
+
+---
+
 # Interaction
 [Discussion Link](https://github.com/orgs/sit-dia/discussions/24)
 
@@ -14,7 +18,63 @@
 > - RF is how realistic the assets are
 > - EPM is how interaction affords realism
 
+- extent world knowledge
+- reproduction fidelity
+>- Refers to how accurately and realistically the virtual environment reproduces real-world elements. Such as visual, audio and interaction fidelity.
+>- Visual fidelity: quality and realism of graphics and visual effects in VR
+>- Audio fidelity: accuracy and realism of spatial audio, including the positioning and behavior of sound sources
+>- Interaction fidelity: concerns the realism and responsiveness of object interactions within the virtual environment.
+  
+- Extent of presence metaphor
+>- Refers to the degree to which users feel present and engaged within the virtual environment. The feeling of "being there" imersed in the virtual world.
+
+- Coherence
+> - Refers to the Consistency and Believability of the virtual environment
+> - For a moment I believed that i was actuall 1000ft above ground.
+> - Things are described from the user's perspective
+
+- Affordance
+> Refers to the perceived possibilities for action or interaction within the virtual environment. It influences how users intrinsically interact with objects and navigate the virtual space
+> Improving affordance:
+>> - Hand tracking that allows natural manipulation of objects
+>> - Having objects with clear grooves for gripping
+>> - Haptic feedback when an object correctly fits into place
+>> - Highlighting interactive objects with subtle glow effects
 
 - describe the historical evolution of immersive technologies
 
+- explain immersion as system properties
+>- Example of factors describing immersion from a systems perspective
+>> - Wide FOV
+>> - 8K resolution display
+>> - 6-DOF inside out tracking
+
+- explain immersion as user experience
+![image](https://github.com/Taterr/VRNotes/assets/90663945/2b40b70f-f1a6-4b2e-a709-7844f822f685)
+
+
+- explain the key dimensions of presence, flow, cybersickness
+  
+- describe how to employ different quantitative and qualitative user research methods to evaluate presence, flow and cybersickness
+
 - ![image](https://github.com/Taterr/VRNotes/assets/90663945/29c5bb79-301e-4d91-a23e-d74fe37bb0b8)
+
+--- 
+
+# Development tools
+- Describe common tools for developing immersive applications
+> - ![image](https://github.com/Taterr/VRNotes/assets/90663945/d870046f-5b53-4501-89c6-8de580eac512)
+
+- Differentiate the accessibility implications of choosing different types of tools
+  
+- Differentiate WebXR and OpenXR standards
+
+# Hardware and Software Components
+- Describe common hardware components in XR devices
+> ![image](https://github.com/Taterr/VRNotes/assets/90663945/2a8d5a4b-9b85-4c31-aa14-419f4038040d)
+
+- Explain the image formation process in typical XR HMDs
+> ![image](https://github.com/Taterr/VRNotes/assets/90663945/bc810af6-80ec-44d1-8aab-222cb915daad)
+
+- Describe common software components in immersive applications
+- Describe the architecture of a typical WebXR application
