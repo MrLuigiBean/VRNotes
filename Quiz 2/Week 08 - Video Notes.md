@@ -3,8 +3,16 @@
 
 ## Viewpoint Control
 - Basically controlling the camera
-- Is a passive interaction
+- Is a **passive** interaction
 - Intertial Measurement Units (IMUs) use accelerometers and gyroscopes to determine where a device is in 3D space
+> - Viewpoint control in VR typically involves the following aspects:
+> -Positional Tracking: VR systems often use sensors or cameras to track the user's head movements in real-time, allowing them to change their position within the > -virtual environment by moving their head. This enables users to look around and explore the virtual world from different angles.
+
+> - Orientation Control: Users can also rotate their viewpoint by turning their head or using input devices such as controllers to change their orientation within the virtual environment. This allows them to view the surroundings from different perspectives.
+
+> - Teleportation or Locomotion: In addition to natural movement, VR applications may offer alternative methods of navigation such as teleportation or simulated > -walking. These techniques allow users to move to different locations within the virtual space, expanding their ability to explore and interact with the > -> -environment.
+
+> - Scale and Proximity Control: Some VR experiences allow users to dynamically adjust their scale within the virtual environment or manipulate their proximity to objects. This feature can be useful for examining details, interacting with objects, or adapting the environment to fit personal preferences.
 
 ## Hand Gestures
 - Haptic Gloves
@@ -13,6 +21,7 @@
 
 ## Body Gestures
 - Embodiment: "the feeling of being in control of a virtual representation of the human self"
+> - Perception that a virtual body is one's own. Often correlated to Presence
 - Hand gestures are partial embodiment, because only the hands are being controlled
 - IMU Trackers
 - 360 degree treadmills
@@ -24,6 +33,7 @@
 
 ### Natural Interactions
 - Natural Interactions: "interactions where the outcome is very close to what is done in the real world"
+> - Natural interaction offers the most optimal interaction authenticity
 
 ### Artificial Interactions
 - Artificial Interactions: "interactions that are imossible in the real world"
