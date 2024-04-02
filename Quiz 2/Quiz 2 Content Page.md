@@ -1,6 +1,9 @@
 # Quiz 2 (Covers Week 1 - 12)
 [Discussion Link](https://github.com/orgs/sit-dia/discussions/22)
-Even numbered Student IDs to go to LT6C and Odd numbered Student IDs to go to LT6D.
+
+Venue: LT6D
+
+**No returning back to previous questions!**
 
 This is for quick references to which week contain which topic by using keywords
 
@@ -55,3 +58,37 @@ This is for quick references to which week contain which topic by using keywords
 - Basic audio in WebXR applications
 - Anchors to overlay 3D virtual objects in camera video in WebXR
 - VR vs Desktop
+
+## Week 8
+- Interaction
+- Viewport Control, Hand Gestures, Body Gestures
+- Interaction Authenticity
+- Passive/Active interaction mechanic
+- Embodiment
+- GUI
+
+## Week 9
+- Implementing Interaction
+- Behaviors
+- ActionManager
+- Observables
+- Babylon.js
+
+## Week 10
+- Evaluating Immersion
+- Experimental Construct
+- Users and Collaborator
+- Presence, Flow, Cybersickness
+- Data Collection
+- IPQ, FSS, VRSQ, Semi-structured interviews
+
+## Week 11
+- Industry Practices
+- Guest speaker
+
+## Week 12
+- Industry Practices
+- Guest speaker
+
+## Week 13
+- Revision
