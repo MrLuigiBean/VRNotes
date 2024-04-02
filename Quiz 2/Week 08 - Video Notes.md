@@ -3,7 +3,7 @@
 
 ## Viewpoint Control
 - Basically controlling the camera
-- Is a passive interaction
+- Is a **passive** interaction
 - Intertial Measurement Units (IMUs) use accelerometers and gyroscopes to determine where a device is in 3D space
 > - Viewpoint control in VR typically involves the following aspects:
 > -Positional Tracking: VR systems often use sensors or cameras to track the user's head movements in real-time, allowing them to change their position within the > -virtual environment by moving their head. This enables users to look around and explore the virtual world from different angles.
@@ -21,6 +21,7 @@
 
 ## Body Gestures
 - Embodiment: "the feeling of being in control of a virtual representation of the human self"
+> - Perception that a virtual body is one's own. Often correlated to Presence
 - Hand gestures are partial embodiment, because only the hands are being controlled
 - IMU Trackers
 - 360 degree treadmills
@@ -32,6 +33,7 @@
 
 ### Natural Interactions
 - Natural Interactions: "interactions where the outcome is very close to what is done in the real world"
+> - Natural interaction offers the most optimal interaction authenticity
 
 ### Artificial Interactions
 - Artificial Interactions: "interactions that are imossible in the real world"
