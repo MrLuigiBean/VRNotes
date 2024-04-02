@@ -14,9 +14,8 @@
 - explain milgram and kishino's Reality-Virtuality Continuum
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/30e1b6fc-d5c6-4c5f-8ce7-e00be7fe6362)
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/7a277687-b461-4ad9-838d-29a3de9f2241)
-> - EWK is how much system understands the real world
-> - RF is how realistic the assets are
-> - EPM is how interaction affords realism
+> - ```EWK``` refers to the familiarity and understanding that users have of the environment they are interacting with. 
+> - ```Immersion``` refers to the degree to which users feel mentally and emotionally absorved in a virtual environment, as if they're physically present within it.
 
 - reproduction fidelity
 >- Refers to how accurately and realistically the virtual environment reproduces real-world elements. Such as visual, audio and interaction fidelity.
@@ -44,7 +43,7 @@
 > perception that a virtual body is one's own. Often correlated to Presence. 
 >> Improve tracking fidelity, implement multimodal sensory feedback: visual, auditory, haptic, implement personalization (meta mirror)
 
-- explain immersion as system properties
+- Q: explain immersion as system properties
 >- Example of factors describing immersion from a systems perspective
 >> - Wide FOV
 >> - 8K resolution display
@@ -97,7 +96,7 @@
 - Describe common software components in immersive applications
 >- What is the function of the **debug layer** in the scene class of **Babylon.js**?
 >> allows the developer to visualize important scene information such as the positions, rotations, and bounding boxes of the mesh objects within the scene. The debug layer can also provide tools for monitoring and analyzing the performance of the scene, including fps, memory usuage and draw calls.
->- **PhotoDome** class in babylonjs: used to display a 360 degree paranomic image within a 3D scene. allowing developers to create immersive environments by wrapping the panoramic image around a sphere, enabling users to explore the scene from any angle.
+>- **PhotoDome** class in babylonjs: used to display a 360 degree panoramic image within a 3D scene. allowing developers to create immersive environments by wrapping the panoramic image around a sphere, enabling users to explore the scene from any angle.
   
 - Describe the architecture of a typical WebXR application
 > ![image](https://github.com/Taterr/VRNotes/assets/90663945/fdb0fb24-364b-41dc-8775-a918f05791ce)
