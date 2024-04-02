@@ -75,6 +75,9 @@
 
 - Explain the image formation process in typical XR HMDs
 > ![image](https://github.com/Taterr/VRNotes/assets/90663945/bc810af6-80ec-44d1-8aab-222cb915daad)
+> ![image](https://github.com/Taterr/VRNotes/assets/90663945/0ecb4854-3079-474e-b471-3369a506e8c1)
+> ![image](https://github.com/Taterr/VRNotes/assets/90663945/7cdd568e-9c35-4ad2-8d03-c527328668cb)
+
 
 - Describe common software components in immersive applications
 - Describe the architecture of a typical WebXR application
