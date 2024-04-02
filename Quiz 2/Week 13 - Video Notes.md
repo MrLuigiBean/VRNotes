@@ -41,6 +41,10 @@
 >> - Haptic feedback when an object correctly fits into place
 >> - Highlighting interactive objects with subtle glow effects
 
+- Embodiment
+> perception that a virtual body is one's own. Often correlated to Presence. 
+>> Improve tracking fidelity, implement multimodal sensory feedback: visual, auditory, haptic, implement personalization (meta mirror)
+
 - describe the historical evolution of immersive technologies
 
 - explain immersion as system properties
@@ -51,7 +55,6 @@
 
 - explain immersion as user experience
 ![image](https://github.com/Taterr/VRNotes/assets/90663945/2b40b70f-f1a6-4b2e-a709-7844f822f685)
-
 
 - explain the key dimensions of presence, flow, cybersickness
   
@@ -68,6 +71,8 @@
 - Differentiate the accessibility implications of choosing different types of tools
   
 - Differentiate WebXR and OpenXR standards
+> - **WebXR** is a standard for creating immersive experiences on the web, allowing developers to build VR and AR applications that can be accessed and experienced directly through web browsers without the need for additional plugins or software ```A-Frame, Babylon.js, Three.js```
+> - **OpenXR** is a standard developed by Khronos, for building cross-platform VR and AR applications that are able to run on multiple hardware devices such as VR headsets, AR glasses, MR devices. ```Unity3D, Unreal Engine, OpenXR SDK```
 
 # Hardware and Software Components
 - Describe common hardware components in XR devices
@@ -78,6 +83,45 @@
 > ![image](https://github.com/Taterr/VRNotes/assets/90663945/0ecb4854-3079-474e-b471-3369a506e8c1)
 > ![image](https://github.com/Taterr/VRNotes/assets/90663945/7cdd568e-9c35-4ad2-8d03-c527328668cb)
 
-
 - Describe common software components in immersive applications
+>- What is the function of the **debug layer** in the scene class of **Babylon.js**?
+>> allows the developer to visualize important scene information such as the positions, rotations, and bounding boxes of the mesh objects within the scene. The debug layer can also provide tools for monitoring and analyzing the performance of the scene, including fps, memory usuage and draw calls.
+>- **PhotoDome** class in babylonjs: used to display a 360 degree paranomic image within a 3D scene. allowing developers to create immersive environments by wrapping the panoramic image around a sphere, enabling users to explore the scene from any angle.
+  
 - Describe the architecture of a typical WebXR application
+
+## Model-based approach
+> Hand made 3D models using 3D modelling tools. Requires deep technical art expertise. Enables full interactive interactions
+> **pros:** High fidelity, Customization, Interactivity, Realism in terms of level of details.
+> **cons:** Complexity, Performance overhead, File size
+
+## Image-based approach
+> 360 photos / videos. More accessible to untrained creators, limited to static surroundings.
+> **pros:** Ease of implementation, Performance efficiency, Realism in terms of its closeness with real world visual cues (lighting, shadows, perspective)
+> **cons:** Limited interactivty, Dependency on Environment (relies on scanning real world images), Quality of capture
+
+
+# Interaction
+- Viewpoint Control
+> - Top priority. Helps to give a sense of presence
+> - Passive interaction: Not done consciously
+
+- Hand Gestures
+- Body Gestures
+
+# Implementing Interaction
+- ```ActionManager```
+> - Consists of a collection of actions, each representing a specific behavior of action that should occur when triggered. Customize interaction parameters (duration, conditions, triggers)
+> - For example: an action action may be triggered when a user clicks on a mesh object, when 2 objects collide, or when a certain condition is met.
+
+- ```Observables (Source)```
+> Holds the state and notifies its observers when its state has been changed. It is responsible for managing and notifying its list of observers
+> - Used in event driven programming paradigms such as GUIs, where UI elements (observables) notify listeners (observers) of user interactions or state changes.
+
+- ```Observers```
+> An object that subscribes to an Observable and receives notifications when the Observable's state changes. It defines a callback or handler function that is invoked by the Observable when conditions are met.
+> - Used where objects need to react to changes in the state of other objects without being tightly coupled to them.
+
+
+
+
