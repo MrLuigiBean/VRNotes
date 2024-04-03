@@ -4,7 +4,7 @@
 ## Viewpoint Control
 - Basically controlling the camera
 - Is a **passive** interaction
-- Intertial Measurement Units (IMUs) use accelerometers and gyroscopes to determine where a device is in 3D space
+- Inertial Measurement Units (IMUs) use accelerometers and gyroscopes to determine where a device is in 3D space
 > - Viewpoint control in VR typically involves the following aspects:
 > -Positional Tracking: VR systems often use sensors or cameras to track the user's head movements in real-time, allowing them to change their position within the > -virtual environment by moving their head. This enables users to look around and explore the virtual world from different angles.
 
