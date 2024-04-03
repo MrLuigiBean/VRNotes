@@ -1,6 +1,6 @@
 # Mentimeter
 
-Covers from Week 8 - 10
+Covers from Week 8 - 13
 
 This is an attempt to collate all mentimeter questions in one MD
 
@@ -199,7 +199,7 @@ What form of GUI implementation is best suited for this use case?
 <br>
 
 Q15\
-![Wk8 Q15](MentiImages/w8-09.png)\
+![Wk8 Q15](MentiImages/w8-09.png)
 - Teleportation
 - Joystick-based
 - Walking-in-place (WIP) with KatVR 360 slidemill
@@ -213,7 +213,7 @@ Q15\
 <br>
 
 Q16\
-![Wk8 Q16](MentiImages/w8-10.png)\
+![Wk8 Q16](MentiImages/w8-10.png)
 - Teleportation
 - Joystick-based
 - Walking-in-place (WIP) with KatVR 360 slidemill
@@ -227,7 +227,7 @@ Q16\
 <br>
 
 Q17\
-![Wk8 Q17](MentiImages/w8-11.png)\
+![Wk8 Q17](MentiImages/w8-11.png)
 - Teleportation
 - Joystick-based
 - Walking-in-place (WIP) with KatVR 360 slidemill
@@ -385,7 +385,7 @@ What is the mechanics of the following code?
 <br>
 
 Q11\
-Which API class in Babylon.js will allow you to easily add UI controls to easily manipulate the position, rotation, and scale of meshes in your scene?\
+Which API class in Babylon.js will allow you to easily add UI controls to easily manipulate the position, rotation, and scale of meshes in your scene?
 - MultiPointerScaleBehavior
 - GizmoManager
 - PointerDragBehavior
@@ -449,7 +449,8 @@ Which popular experiential construct(s) of immersion is/are relevant here?
 <br>
 
 Q3\
-Which of the following implementations will this design translate into?
+Which of the following implementations will this design translate into?\
+![alt text](MentiImages/w10-2.png)
 - Constrict the FOV when moving
 - Test users using the VRSQ
 - Test users using the IPQ
@@ -485,6 +486,7 @@ What data collection methods can be appropriate here?
 
 Q5\
 **IMAGE REQUIRED**\
+_IIRC it's something to do with experiencing space_\
 Which of the following implementations will this design translate into?
 - Constrict the FOV when moving
 - Test users using the VRSQ
@@ -504,6 +506,7 @@ Which of the following implementations will this design translate into?
 
 Q6\
 **IMAGE REQUIRED**\
+_IIRC it's a continuation of Q5_\
 What data collection methods can be appropriate here?
 - Let users fill in the IPQ
 - Let users fill in the VRSQ
@@ -521,8 +524,10 @@ What data collection methods can be appropriate here?
 </details>
 <br>
 
+This is for Q7 & Q8\
+![alt text](MentiImages/w10-5.png)
+
 Q7\
-**IMAGE REQUIRED**\
 Which of the following implementations will this design translate into?
 - Create a walking-in-place location feature
 - Create a teleportation locomotion feature
@@ -537,7 +542,6 @@ Which of the following implementations will this design translate into?
 <br>
 
 Q8\
-**IMAGE REQUIRED**\
 What data collection methods can be appropriate here?
 - Let users fill in the IPQ
 - Let users fill in the VRSQ
@@ -552,5 +556,346 @@ What data collection methods can be appropriate here?
   Perform semi-structured interviews with users
   <br>
   Create telemetry tracking mechanisms to observe users
+</details>
+<br>
+
+## Week 13 Summary
+### Excluding Repeated Week 8 or Week 9 Questions
+Q1\
+Where should Strava be placed on the RV Continuum?\
+![alt text](MentiImages/all-01.png)
+- A
+- B
+- C
+- D
+- E
+
+<details>
+  <summary>Answer</summary>
+  B
+</details>
+<br>
+
+Q2\
+Why is Strava not considered to be near the "Real Environment" end of the RV spectrum?
+- It has some "Extent of World Knowledge"
+- It has some "Reproduction Fidelity"
+- It has some "Extent of Presence Metaphor"
+
+<details>
+  <summary>Answer</summary>
+  A
+</details>
+<br>
+
+Q3\
+Which device sparked the current (21st Century) rise of VR?
+- Sega VR
+- Oculus Rift DK1
+- Google Cardboard
+- Oculus Quest
+- Meta Quest 2
+
+<details>
+  <summary>Answer</summary>
+  Oculus Rift DK1
+</details>
+<br>
+
+Q4\
+The 3D models are extremly high quality. What dimension of the RV continuum is this referring to?
+- Extent of World Knowledge
+- Reproduction Fidelity
+- Extent of Presence Metaphor
+- Coherency
+
+<details>
+  <summary>Answer</summary>
+  Reproduction Fidelity
+</details>
+<br>
+
+Q5\
+The stereo optics provide a perception of depth through an LCD display. What dimension of the RV continuum is this referring to?
+- Extent of World Knowledge
+- Reproduction Fidelity
+- Extent of Presence Metaphor
+- Coherency
+
+<details>
+  <summary>Answer</summary>
+  Extent of Presence Metaphor
+</details>
+<br>
+
+Q6\
+For a moment I believed that I was actually 1000ft above ground. What dimension of the RV continuum is this referring to?
+- Extent of World Knowledge
+- Reproduction Fidelity
+- Extent of Presence Metaphor
+- Coherency
+
+<details>
+  <summary>Answer</summary>
+  Coherency
+</details>
+<br>
+
+Q7\
+Which of the following describes immersion from a systems perspective?
+- Wide FOV
+- Higher spatial presence
+- Higher place illusion
+- 8K Resolution Display
+- Lower cybersickness
+- 8-DOF inside out tracking
+
+<details>
+  <summary>Answer</summary>
+  Wide FOV
+  <br>
+  8K Resolution Display
+  <br>
+  8-DOF inside out tracking
+</details>
+<br>
+
+Q8\
+Which of the following describes immersion from an experiential perspective?
+- Wide FOV
+- Higher spatial presence
+- Higher place illusion
+- 8K Resolution Display
+- Lower cybersickness
+- 8-DOF inside out tracking
+
+<details>
+  <summary>Answer</summary>
+  Higher spatial presence
+  <br>
+  Higher place illusion
+  <br>
+  Lower cybersickness
+</details>
+<br>
+
+Q9\
+What is/are the possible famous validated questionnaires to use in the user studies, pertinent to the aims above?\
+![alt text](MentiImages/all-02.png)
+- Systems Usability Scale (SUS)
+- Simulator Sickness Questionnaire (SSQ)
+- Flow State Scale (FSS)
+- Igroup Presence Questionnaire (IPQ)
+- Virtual Reality Sickness Questionnaire (VRSQ)
+
+<details>
+  <summary>Answer</summary>
+  Flow State Scale (FSS)
+</details>
+<br>
+
+Q10\
+Which of the implementation element(s) below would improve the affordances for interactions in this app?\
+![alt text](MentiImages/all-03.png)
+- Hand-tracking that allows natural manipulation of objects
+- Having objects with clear grooves for gripping
+- Haptic feedback when an object correctly fits into place
+- Highlighting interactive objects with subtle glow effects
+- Optimizing the frame rate and reducing latency
+- Having increasing difficulty levels in the puzzles
+
+<details>
+  <summary>Answer</summary>
+  Hand-tracking that allows natural manipulation of objects
+  <br>
+  Having objects with clear grooves for gripping
+  <br>
+  Haptic feedback when an object correctly fits into place
+  <br>
+  Highlighting interactive objects with subtle glow effects
+</details>
+<br>
+
+Q11\
+Choose the correct statement related to implementation tools.\
+- Babylon.js is an open standard for web-based XR applications
+- WebXR is an open-source 3D engine for web-based XR applications
+- WebXR is only meant for building desktop 3D web applications
+- Babylon.js can be used to build WebXR AR applications
+
+<details>
+  <summary>Answer</summary>
+  Babylon.js can be used to build WebXR AR applications
+</details>
+<br>
+
+Q12\
+What does changing the focal length of the lenses in a HMD affect?\
+![alt text](MentiImages/all-04.png)
+- The slope of the virtual image
+- Distance between the lenses and the physical display
+- IPD between the lenses
+- Distance between the lenses and the user's eyes
+- Vertical FOV
+- Horizontal FOV
+
+<details>
+  <summary>Answer</summary>
+  The slope of the virtual image
+  <br>
+  Vertical FOV
+  <br>
+  Horizontal FOV
+</details>
+<br>
+
+Q13\
+Which object is easier for the user to reach out and grab with his/her hands?\
+![alt text](MentiImages/all-05.png)
+- A
+- B
+- Both are the same
+
+<details>
+  <summary>Answer</summary>
+  A
+</details>
+<br>
+
+Q14\
+What effect does using the same projection for both displays (or display partitiions) for both eyes in a VR HMD have?\
+- Uniform perception across eyes, hence reduced cybersickness
+- The field of view will be enlarged
+- Reduced head tracking accurancy, increasing cybersickness
+- Reduction in visual anomalies like ghosting or flickering
+- None of the answers are correct
+
+<details>
+  <summary>Answer</summary>
+  None of the answers are correct
+</details>
+<br>
+
+Q15\
+What is the most optimal approach?\
+![alt text](MentiImages/all-06.png)
+- Model-based
+- Image-based
+
+<details>
+  <summary>Answer</summary>
+  Model-based
+</details>
+<br>
+
+Q16\
+What is the API class in Babylon.js that will allow you to easily use 360 images as the skybox? (Fill in the blank)
+
+[_________]
+
+<details>
+  <summary>Hint (Possible Answers)</summary>
+  - Skybox
+  - VideoDome
+  - PhotoDome
+  - 360Image
+</details>
+<br>
+
+<details>
+  <summary>Answer</summary>
+  PhotoDome
+</details>
+<br>
+
+Q17\
+In total, how many observables did we create?\
+![alt text](MentiImages/all-07.png)
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+
+<details>
+  <summary>Answer</summary>
+  0
+</details>
+<br>
+
+Q18\
+The following code allows the sphere to be dragged around...\
+![alt text](MentiImages/all-08.png)
+- A plane parallel to the direction the player is viewing
+- A plane perpendicular to the direction the player is viewing
+- In any direction
+- A plane parallel to the ground
+
+<details>
+  <summary>Answer</summary>
+  A plane perpendicular to the direction the player is viewing
+</details>
+<br>
+
+Q19\
+Can you suggest an improvement to the DEBUG CODE to get the position of the sphere only when it is being dragged?\
+![alt text](MentiImages/all-09.png)
+- add Observer to onDragObservable of pointerDragBehavior to get pos
+- add Observer to sphere to get pos
+- add Observable to sphere to get pos
+- add Observer to scene to get pos
+
+<details>
+  <summary>Answer</summary>
+  add Observer to onDragObservable of pointerDragBehavior to get pos
+</details>
+<br>
+
+Q20\
+What is the order of the console logs in the following Babylon.js code? (Assume the rest of the code is correct and the scene is set up properly)\
+![alt text](MentiImages/all-10.png)
+- 2,3,4,1
+- 1,2,3,4
+- 1,4,3,2
+- 4,3,2,1
+
+<details>
+  <summary>Answer</summary>
+  2,3,4,1
+</details>
+<br>
+
+Q21\
+Which of the following element(s) enhances the experience of flow in a VR game?
+- Increasing difficulty of game challenges as the player progresses
+- Providing clear goals and feedback
+- Improving the realism of the graphics
+- Adding more AI-driven characters with human-like behaviors
+- None of the answers are correct
+
+<details>
+  <summary>Answer</summary>
+  Increasing difficulty of game challenges as the player progresses
+  <br>
+  Providing clear goals and feedback
+</details>
+<br>
+
+Q22\
+In our VR campus exploration game for the next release, a key focus is to reduce cybersickness. Which is/are suitable implementation approaches?\
+![alt text](MentiImages/all-11.png)
+- Implement progessively challenging levels
+- Implement GUI elements to present clear goals at each step
+- Real-walking instead of the current joystick-based locomotion
+- Reduce the FOV during movement
+- Increase visual fidelity of the graphics with physically-based shaders
+- Add AI-driven human characters with realistic behaviors
+
+<details>
+  <summary>Answer</summary>
+  IReal-walking instead of the current joystick-based locomotion
+  <br>
+  Reduce the FOV during movement
 </details>
 <br>
