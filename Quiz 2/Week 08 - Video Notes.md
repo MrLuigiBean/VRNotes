@@ -36,7 +36,7 @@
 > - Natural interaction offers the most optimal interaction authenticity
 
 ### Artificial Interactions
-- Artificial Interactions: "interactions that are imossible in the real world"
+- Artificial Interactions: "interactions that are impossible in the real world"
 
 #### Magical Interactions
 - Plausibility Illusion: "events that happen in the virtual world closely affects the perception of how credible these things can actually happen IRL"
@@ -44,7 +44,7 @@
 - E.g literally controlling the flow of time by moving (Superhot)
 
 #### Augmented Natural Interactions
-- Allows users to perform higly exaggerated versions of a familiar IRL action
+- Allows users to perform highly exaggerated versions of a familiar IRL action
 - E.g. super high jumps in video games
 
 ## Interaction Use Cases
@@ -65,7 +65,7 @@
 
 ### Locomotion Interactions
 - Locomotion Interactions: "the ability to perform spatial navigation in the virtual environment"
-- Can be pretty tricky to get right, especially with IRL spatial constaints (the room you're in can only be so big before bumping into stuff)
+- Can be pretty tricky to get right, especially with IRL spatial constraints (the room you're in can only be so big before bumping into stuff)
 - Can be done by combining Viewpoint Control, Hand Gestures and Body Gestures
 - Alternatively, users can move around with just teleporting from place to place instead, but that hampers Immersion a lot
 

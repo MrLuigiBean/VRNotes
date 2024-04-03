@@ -41,7 +41,7 @@ This is for quick references to which week contain which topic by using keywords
 - Common software components in immersive applications
 - Architecture of WebXR application
 - Hardware in smartphone and HMDs
-- Eye relief, virutal image, focal length, perspective matrix, view matrix, view frustum
+- Eye relief, virtual image, focal length, perspective matrix, view matrix, view frustum
 - Rendering, Physics, Input Handler, Audio
 - ECS, OOP
 - Stanford Image Creation

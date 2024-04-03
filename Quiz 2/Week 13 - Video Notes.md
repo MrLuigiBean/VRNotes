@@ -8,14 +8,14 @@
 - Differentiate AR,VR,MR and XR
 > - AR overlays digital information or virtual objects onto the real world, where users are still able to see and interact with their physical surroundings while additional digital content is integrated into their environment
 > - VR immerses users into a completely simulated environment, shutting out the physical world
-> - Mixed Reality (MR) combines elements of both AR and VR. Blending digital content with the real world while maintaining interaction betwween the 2. MR systems are capable of understanding and responding to the user's physical environment in real time.
+> - Mixed Reality (MR) combines elements of both AR and VR. Blending digital content with the real world while maintaining interaction between the 2. MR systems are capable of understanding and responding to the user's physical environment in real time.
 > - Extended Reality (XR) is an umbrella term that encompasses all immersive technologies. Including AR, VR, MR.
 
 - explain milgram and kishino's Reality-Virtuality Continuum
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/30e1b6fc-d5c6-4c5f-8ce7-e00be7fe6362)
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/7a277687-b461-4ad9-838d-29a3de9f2241)
 > - ```EWK``` refers to the familiarity and understanding that users have of the environment they are interacting with. 
-> - ```Immersion``` refers to the degree to which users feel mentally and emotionally absorved in a virtual environment, as if they're physically present within it.
+> - ```Immersion``` refers to the degree to which users feel mentally and emotionally absorbed in a virtual environment, as if they're physically present within it.
 
 - reproduction fidelity
 >- Refers to how accurately and realistically the virtual environment reproduces real-world elements. Such as visual, audio and interaction fidelity.
@@ -24,11 +24,11 @@
 >- Interaction fidelity: concerns the realism and responsiveness of object interactions within the virtual environment.
   
 - Extent of presence metaphor
->- Refers to the degree to which users feel present and engaged within the virtual environment. The feeling of "being there" imersed in the virtual world.
+>- Refers to the degree to which users feel present and engaged within the virtual environment. The feeling of "being there" immersed in the virtual world.
 
 - Coherence
 > - Refers to the Consistency and Believability of the virtual environment
-> - For a moment I believed that i was actuall 1000ft above ground.
+> - For a moment I believed that i was actually 1000ft above ground.
 > - Things are described from the user's perspective
 
 - Affordance
@@ -95,7 +95,7 @@
 
 - Describe common software components in immersive applications
 >- What is the function of the **debug layer** in the scene class of **Babylon.js**?
->> allows the developer to visualize important scene information such as the positions, rotations, and bounding boxes of the mesh objects within the scene. The debug layer can also provide tools for monitoring and analyzing the performance of the scene, including fps, memory usuage and draw calls.
+>> allows the developer to visualize important scene information such as the positions, rotations, and bounding boxes of the mesh objects within the scene. The debug layer can also provide tools for monitoring and analyzing the performance of the scene, including fps, memory usage and draw calls.
 >- **PhotoDome** class in babylonjs: used to display a 360 degree panoramic image within a 3D scene. allowing developers to create immersive environments by wrapping the panoramic image around a sphere, enabling users to explore the scene from any angle.
   
 - Describe the architecture of a typical WebXR application
@@ -110,7 +110,7 @@
 ## Image-based approach
 > 360 photos / videos. More accessible to untrained creators, limited to static surroundings.
 > **pros:** Ease of implementation, Performance efficiency, Realism in terms of its closeness with real world visual cues (lighting, shadows, perspective)
-> **cons:** Limited interactivty, Dependency on Environment (relies on scanning real world images), Quality of capture
+> **cons:** Limited interactivity, Dependency on Environment (relies on scanning real world images), Quality of capture
 
 
 ## Interaction
@@ -146,8 +146,8 @@
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/5497d40e-ece1-4423-bd74-9bda68f115a4)
 >> Can you suggest an improvement to the "debug code" to get the position of the sphere only when it is being dragged? (add observer to the onDragObservable of pointerDragBehavior to get position)
 
-- ```Movment```
+- ```Movement```
 > - ![image](https://github.com/Taterr/VRNotes/assets/90663945/c55cce4a-bdd4-4338-86a2-215c8d4cc1c7)
->> What happens when I change "timeToTeleport" to 0 in the following babylonjs code? (Teleportation triggers imediately when the button is pressed)
+>> What happens when I change "timeToTeleport" to 0 in the following babylonjs code? (Teleportation triggers immediately when the button is pressed)
 
 ## Case Studies

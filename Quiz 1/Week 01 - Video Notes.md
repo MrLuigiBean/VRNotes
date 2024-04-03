@@ -80,17 +80,17 @@ The dimensions are split into three categories
     - `Real World Unmodelled`: An image of a cat
     - `Real World Completely Modelled`: Aware of user location/user is currently looking at the screen (HoloLens)
 - **Reproduction Fidelity** (RF)
-  - `No virtual content` ~~~~~~~> `Real and virtual content indistiguishable`
+  - `No virtual content` ~~~~~~~> `Real and virtual content indistinguishable`
   - How realistic the assets are  ~~~~>
   - Example of actions close to which extent
     - `No virtual content`: A non-shaded 3D cube
-    - `Real and virtual content indistiguishable`: Realistic tree with shadows/ Realistic dog with realistic movements
+    - `Real and virtual content indistinguishable`: Realistic tree with shadows/ Realistic dog with realistic movements
 - **Extent of Presence Metaphor** (EPM)
-  - `No display` ~~~~~~~> `Indistiguishable from direct viewing`
+  - `No display` ~~~~~~~> `Indistinguishable from direct viewing`
   - How much realism does the interaction affords ~~~~>
   - Example of actions close to which extent
     - `No display`: User uses mouse and keyboard to type out desires/interactions
-    - `Indistiguishable from direct viewing`: User can pick up objects using hands / interact with gestures
+    - `Indistinguishable from direct viewing`: User can pick up objects using hands / interact with gestures
 
 ### Revisting the RV Continuum
 ![image](https://github.com/TobyIO0085/VRNotes/assets/76524945/7cc7fa13-8409-4d80-b2f2-9dfc5c4d7eb5)
@@ -197,7 +197,7 @@ Added Coherenc (CO) to represent user
 
 ## Q8) What is the common public perception of the difference between AR and MR?
 - They are the same
-- AR referes to blending virtual objects onto the real-world
+- AR refers to blending virtual objects onto the real-world
 - Virtual entities in MR can interact with real-world objects
 
 <details>

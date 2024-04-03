@@ -92,12 +92,12 @@ In the 360 Video Lecture, is viewport control a passive or active interaction me
 Q7\
 In the 360 Video Lecture, what form of interaction authenticity is the eye-gaze point-and-click mechanic?
 - Natural interaction
-- Artifical magical interaction
-- Artifical augmented natural interaction
+- Artificial magical interaction
+- Artificial augmented natural interaction
 
 <details>
   <summary>Answer</summary>
-  Artifical augmented natural interaction
+  Artificial augmented natural interaction
 </details>
 <br>
 
@@ -118,8 +118,8 @@ Q9\
 ![Wk8 Q9](MentiImages/w8-03.png)\
 What interaction authenticity is optimal?
 - Natural interaction
-- Artifical magical interaction
-- Artifical augmented natural interaction
+- Artificial magical interaction
+- Artificial augmented natural interaction
 
 <details>
   <summary>Answer</summary>
@@ -131,8 +131,8 @@ Q10\
 ![Wk8 Q10](MentiImages/w8-04.png)\
 What interaction authenticity is optimal?
 - Natural interaction
-- Artifical magical interaction
-- Artifical augmented natural interaction
+- Artificial magical interaction
+- Artificial augmented natural interaction
 
 <details>
   <summary>Answer</summary>
@@ -268,7 +268,7 @@ Which implementation is the most straightforward, i.e, without reinventing the w
 <br>
 
 Q3\
-In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its approximity to different objects.\
+In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its proximity to different objects.\
 Which implementation is the most straightforward, i.e, without reinventing the wheel?
 - Behaviors
 - ActionManager
@@ -282,7 +282,7 @@ Which implementation is the most straightforward, i.e, without reinventing the w
 
 Q4\
 ![alt text](MentiImages/w9-2.png)\
-In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its approximity to different objects.\
+In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its proximity to different objects.\
 Which implementation is the most straightforward, i.e, without reinventing the wheel?
 - Behaviors
 - ActionManager
@@ -296,7 +296,7 @@ Which implementation is the most straightforward, i.e, without reinventing the w
 
 Q5\
 ![alt text](MentiImages/w9-3.png)\
-In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its approximity to different objects.\
+In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its proximity to different objects.\
 Which implementation is the most straightforward, i.e, without reinventing the wheel?
 - Behaviors
 - ActionManager
@@ -310,7 +310,7 @@ Which implementation is the most straightforward, i.e, without reinventing the w
 
 Q6\
 ![alt text](MentiImages/w9-4.png)\
-In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its approximity to different objects.\
+In your babylon.js, you need to periodically track changes in the position of the dog object and automatically show updates on the HUD based on its proximity to different objects.\
 Which implementation is the most straightforward, i.e, without reinventing the wheel?
 - Behaviors
 - ActionManager
@@ -471,7 +471,7 @@ What data collection methods can be appropriate here?
 - Let users fill in the VRSQ
 - Let users fill in the FSS
 - Perform semi-structured interviews with users
-- Create telemetry tracking mechnisms to observe users
+- Create telemetry tracking mechanisms to observe users
 
 <details>
   <summary>Answer</summary>
@@ -479,7 +479,7 @@ What data collection methods can be appropriate here?
   <br>
   Perform semi-structured interviews with users
   <br>
-  Create telemetry tracking mechnisms to observe users
+  Create telemetry tracking mechanisms to observe users
 </details>
 <br>
 
@@ -509,7 +509,7 @@ What data collection methods can be appropriate here?
 - Let users fill in the VRSQ
 - Let users fill in the FSS
 - Perform semi-structured interviews with users
-- Create telemetry tracking mechnisms to observe users
+- Create telemetry tracking mechanisms to observe users
 
 <details>
   <summary>Answer</summary>
@@ -517,7 +517,7 @@ What data collection methods can be appropriate here?
   <br>
   Perform semi-structured interviews with users
   <br>
-  Create telemetry tracking mechnisms to observe users
+  Create telemetry tracking mechanisms to observe users
 </details>
 <br>
 
@@ -543,7 +543,7 @@ What data collection methods can be appropriate here?
 - Let users fill in the VRSQ
 - Let users fill in the FSS
 - Perform semi-structured interviews with users
-- Create telemetry tracking mechnisms to observe users
+- Create telemetry tracking mechanisms to observe users
 
 <details>
   <summary>Answer</summary>
@@ -551,6 +551,6 @@ What data collection methods can be appropriate here?
   <br>
   Perform semi-structured interviews with users
   <br>
-  Create telemetry tracking mechnisms to observe users
+  Create telemetry tracking mechanisms to observe users
 </details>
 <br>
